@@ -25,6 +25,6 @@ options = get_arguments()
 # print("enter the Mac address you want to change (eg: 00:11:22:33:44:55) -")
 # newMacAddress = int(input("New MAC >"))
 # interface = input("Which one do you want to change \n [+] 1. wlan0 \n [+] 2. eth0 >")
- change_Mac(options.interface, options.newMacAddress)
+change_Mac(options.interface, options.newMacAddress)
 
 
